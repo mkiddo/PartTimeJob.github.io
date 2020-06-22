@@ -1,0 +1,884 @@
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+             <script>
+             $(document).ready(function(){
+                           $('.click').on('click', function() {
+                                        if($(this).css('background-color')=='rgb(255, 255, 255)') {
+                                                     $(this).css('background-color', 'black');         
+                                        } else {
+                                                     $(this).css('background-color', 'white');        
+                                        }            
+                           });
+             });
+</script>
+<style>
+.click {
+             vertical-align:middle;  
+             text-align:center;
+             display: table-cell;
+             border-style: dotted;
+             border-color: lightgrey;
+             transition: transform 0.2s;
+}
+.click:hover {
+  transform: scale(1.5); 
+  z-index:1;
+}
+.cell {
+             position: absolute; 
+             padding: 0px; 
+             margin: 0px; 
+             width: 39px; 
+             height: 39px;
+             border-spacing: 0px;
+             border-width: thin;
+             font-size: 20px;
+             font-family: Arial, Helvetica, sans-serif;
+}
+.ctext {
+             color: white;
+             mix-blend-mode: difference;
+}
+</style><div class="qrcontainer"> <div style="position: relative; left: 0px; top: 0px; padding: 0px; margin: 4px; width: 1160px; height: 1160px; background-color: white;"><div class="cell" style="position: absolute; left: 0px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 0px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 0px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 0px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 0px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 0px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 0px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 0px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 0px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 0px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 40px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 40px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 80px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 80px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 160px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 160px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 200px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 200px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 240px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 240px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 240px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 240px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 240px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 240px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 240px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 240px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 240px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 280px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 280px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 280px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 280px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 280px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 280px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 280px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 320px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 320px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 320px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 320px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 320px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 320px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 320px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 320px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 360px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 360px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 360px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 360px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 360px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 360px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 360px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 360px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 360px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 400px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 400px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 400px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 400px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 400px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 400px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 400px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 400px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 400px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 400px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 400px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 400px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 400px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 400px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 400px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 400px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 400px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 440px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 440px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 440px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 440px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 440px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 440px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 440px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 440px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 440px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 440px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 440px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 440px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 440px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 440px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 440px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 440px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 440px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 480px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 480px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 480px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 480px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 480px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 480px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 480px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 480px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 480px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 520px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 520px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 520px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 520px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 520px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 520px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 520px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 560px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 560px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 560px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 560px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 560px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 560px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 560px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 560px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 600px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 600px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 600px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 600px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 600px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 600px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 600px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 600px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 640px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 640px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 640px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 640px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 640px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 640px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 640px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 640px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 640px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 640px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 640px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 640px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 640px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 640px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 640px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 640px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 640px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 680px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 680px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 680px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 680px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 680px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 680px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 680px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 680px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 680px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 720px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 720px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 720px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 720px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 720px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 720px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 720px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 720px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 720px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 720px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 720px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 720px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 720px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 720px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 720px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 720px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 720px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 760px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 760px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 760px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 760px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 760px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 760px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 760px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 760px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 760px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 800px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 800px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell click" style="position: absolute; left: 320px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 360px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 400px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 440px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">B</span></div>
+<div class="cell click" style="position: absolute; left: 480px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">E</span></div>
+<div class="cell click" style="position: absolute; left: 520px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 560px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 600px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 640px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 680px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">A</span></div>
+<div class="cell click" style="position: absolute; left: 720px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">D</span></div>
+<div class="cell click" style="position: absolute; left: 760px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell click" style="position: absolute; left: 800px; top: 800px; width: 40px; height: 40px; background-color: white;"><span class="ctext">C</span></div>
+<div class="cell" style="position: absolute; left: 840px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 800px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 800px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 800px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 840px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 840px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 880px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 880px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 880px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 880px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 880px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 880px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 880px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 880px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 920px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 920px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 960px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 960px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 1000px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 1000px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 1040px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 1040px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 1080px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 1080px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 0px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 40px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 80px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 120px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 160px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 200px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 240px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 280px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 320px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 360px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 400px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 440px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 480px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 520px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 560px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 600px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 640px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 680px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 720px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 760px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 800px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 840px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 880px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 920px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 960px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1000px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1040px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+<div class="cell" style="position: absolute; left: 1080px; top: 1120px; width: 40px; height: 40px; background-color: #000000;"></div>
+<div class="cell" style="position: absolute; left: 1120px; top: 1120px; width: 40px; height: 40px; background-color: #ffffff;"></div>
+</div></div>
+
+
